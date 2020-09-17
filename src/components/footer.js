@@ -34,8 +34,6 @@ const Footer = () => {
               <ul className="footer-nav-list footer-nav-list-first">
                 <li className="footer-nav-heading">
                   {data.contentfulFooter.title}
-
-                  {data.contentfulFooter.navLinks}
                 </li>
 
                 {data.contentfulFooter.navLinks.map((link) => {
